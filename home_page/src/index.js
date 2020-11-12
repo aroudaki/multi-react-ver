@@ -1,8 +1,13 @@
 import React from 'react';
+import * as React15 from 'react15';
+import * as React10 from 'react10';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+global.React17 = React;
+global.React15 = React15;
+global.React10 = React10;
 
 ReactDOM.render(
   <React.StrictMode>

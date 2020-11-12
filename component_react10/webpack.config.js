@@ -7,7 +7,12 @@ module.exports = function (webpackEnv) {
         entry: "./src/index.jsx",
         output: {
           path: __dirname + "/dist",
-          filename: "component1.bundle.js"
+          filename: "bundle.js",
+          library: 'ComponentR10',
+          libraryTarget: 'window'
+        },
+        externals:{
+          'react': 'React10'
         },
         resolve: {
             modules:['node_modules']
@@ -22,7 +27,9 @@ module.exports = function (webpackEnv) {
                 }
               }
             ]
-        }
-          
+        },
+        optimization: {
+          minimize: false
+      },
     }
 }
