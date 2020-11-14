@@ -8,12 +8,12 @@ module.exports = function (webpackEnv) {
         output: {
           path: __dirname + "/dist",
           filename: "bundle.js",
-          library: 'ComponentR10',
+          library: 'ComponentR12',
           libraryTarget: 'window'
         },
         externals:{
           // base on the control manifest we need to choose the right react version
-          'react': 'React10'
+          'react': 'React12'
         },
         resolve: {
             modules:['node_modules']
