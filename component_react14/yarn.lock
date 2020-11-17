@@ -909,6 +909,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@microsoft/load-themed-styles@^1.2.2":
+  version "1.10.133"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.133.tgz#15279a459985a883738c413133ebe98091957e64"
+  integrity sha512-jiGxZDBXmjD0uQPtZ+C/UPEdGwp5C50x1fYLy84dpkooZ8nT0jeWlXS3JJjWpHAL9URY37OIrBWzHu/FcBWFGQ==
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.0.tgz#4792816e31119ebd506902a482caec4951fabd86"
@@ -939,6 +944,11 @@
   version "14.14.7"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.7.tgz#8ea1e8f8eae2430cf440564b98c6dfce1ec5945d"
   integrity sha512-Zw1vhUSQZYw+7u5dAwNbIA9TuTotpzY/OF7sJM9FqPOF3SPjKnxrjoTktXDZgUjybf4cWVBP7O8wvKdSaGHweg==
+
+"@uifabric/utilities@>=1.10.2 <2.0.0":
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-1.10.4.tgz#9378dd68944270d6ce1c1e70fda634e1728c3d58"
+  integrity sha512-mKfsbPebdrDkDbsJkDKuu522JVeaCkIuOsbAM1BOTK5o/DQfKtU24KZpkUvZALG1SOgEDds0UqeImhs7Gg6dAQ==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -2303,6 +2313,14 @@ object.assign@^4.1.0:
     has-symbols "^1.0.1"
     object-keys "^1.1.1"
 
+office-ui-fabric-react@2:
+  version "2.34.2"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-2.34.2.tgz#fac3f598d4130f7fff3e9ade965bd6f8b3b043f3"
+  integrity sha1-+sP1mNQTD3//PprellvW+LOwQ/M=
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.2.2"
+    "@uifabric/utilities" ">=1.10.2 <2.0.0"
+
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
@@ -2430,6 +2448,11 @@ randombytes@^2.1.0:
   integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
   dependencies:
     safe-buffer "^5.1.0"
+
+react-dom@^0.14:
+  version "0.14.10"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.10.tgz#da883daef7fa86838e9e2fcfcc084c590c350e21"
+  integrity sha512-kDs8SWFb8Sry4NAplhpJbZEeAnTPir/m+s9s+lkdqA2a89BzmWGnEgGG/CfmhULjv1ogc4oHrjMfAvFNruT3jQ==
 
 react@0.14.7:
   version "0.14.7"

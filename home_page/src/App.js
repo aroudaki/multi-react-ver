@@ -19,6 +19,8 @@ function App() {
         {component: window.ComponentR15.Component_r15, reactVersion: window.ComponentR15.ReactVersion},
         {component: window.ComponentR14.Component_r14, reactVersion: window.ComponentR14.ReactVersion},
         {component: window.ComponentR12.Component_r12, reactVersion: window.ComponentR12.ReactVersion},
+        {component: window.ComponentR12.Component_r12, reactVersion: window.ComponentR12.ReactVersion},
+        {component: window.ComponentR12.Component_r12, reactVersion: window.ComponentR12.ReactVersion},
         {component: 'dummy not supported component', reactVersion: '0.10.0'},
       ])
     });
@@ -29,8 +31,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>This page is using react {React.version}</h2>
-        <img src={logo} className="App-logo" alt="logo" />
-
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         {customComponents && customComponents.map(comp => <ComponentWrapper {...comp} />)}
         {!customComponents && <div>Loading ...</div>}
       </header>

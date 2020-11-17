@@ -13,7 +13,8 @@ module.exports = function (webpackEnv) {
         },
         externals:{
           // base on the control manifest we need to choose the right react version
-          'react': 'React14'
+          'react': 'React14',
+          'office-ui-fabric-react': 'Fabric2'
         },
         resolve: {
             modules:['node_modules']

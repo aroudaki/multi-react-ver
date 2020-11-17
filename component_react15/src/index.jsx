@@ -1,8 +1,13 @@
 import React from 'react';
+import {DefaultButton} from 'office-ui-fabric-react';
 
 export class Component_r15 extends React.Component {
     render(){
-        return <h3 style={{border: '1px solid green'}}>This component uses react {React.version}</h3>;
+        return (
+            <div style={{border: '1px solid green', padding: 10, color: 'white'}}>
+                <DefaultButton primary>This component uses react {React.version} - Fabric 5 </DefaultButton>
+            </div>
+        );
     }
 }
 
