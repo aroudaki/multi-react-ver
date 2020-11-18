@@ -2313,7 +2313,7 @@ object.assign@^4.1.0:
     has-symbols "^1.0.1"
     object-keys "^1.1.1"
 
-office-ui-fabric-react@2:
+office-ui-fabric-react@^2.34.2:
   version "2.34.2"
   resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-2.34.2.tgz#fac3f598d4130f7fff3e9ade965bd6f8b3b043f3"
   integrity sha1-+sP1mNQTD3//PprellvW+LOwQ/M=

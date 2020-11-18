@@ -1,5 +1,5 @@
 {
-  "name": "home_page",
+  "name": "not-optimized-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -62,10 +62,10 @@
     "react-dom14": "npm:react-dom@0.14.7",
     "react-refresh": "^0.8.3",
     "react12": "npm:react@0.12.2",
+    "react12_wrapper": "file:./../react12_wrapper",
     "react14": "npm:react@0.14.7",
     "react14-fabric2-wrapper": "file:.././react14-fabric2-wrapper",
     "react15": "npm:react@15",
-    "react17-fabric7-wrapper": "file:./../react17-fabric7-wrapper",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "8.0.2",

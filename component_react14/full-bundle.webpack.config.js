@@ -4,10 +4,12 @@ const debug = process.env.NODE_ENV !== "production";
 module.exports = function (webpackEnv) {
     return{
         context: __dirname,
-        entry: "./src/index.js",
+        entry: "./src/index.jsx",
         output: {
           path: __dirname + "/dist",
-          filename: "bundle.js",
+          filename: "full-bundle.js",
+          library: 'ComponentR14',
+          libraryTarget: 'window'
         },
         resolve: {
             modules:['node_modules']
