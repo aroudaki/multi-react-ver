@@ -8,10 +8,10 @@ function App() {
 
   if (!customComponents){
     Promise.all([
-      import('component_r17/dist/bundle'),
-      import('component_r15/dist/bundle'),
-      import('component_r14/dist/bundle'),
-      import('component_r12/dist/bundle')
+      import('component_r17/dist/full-bundle'),
+      import('component_r15/dist/full-bundle'),
+      import('component_r14/dist/full-bundle'),
+      import('component_r12/dist/full-bundle')
     ])
     .then(() => {
       setCustomComponents([
