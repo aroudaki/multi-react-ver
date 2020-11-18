@@ -1,23 +1,22 @@
 // Loading all supported versions of react
-import 'react16-fabric7-wrapper/dist/bundle';
 import React from 'react';
-import * as React15 from 'react15';
+import ReactDOM from 'react-dom';
 import * as React12 from 'react12';
 
 // Loading all supported versions of ui fabric
-import * as Fabric5 from 'fabric5';
+import 'react17-fabric7-wrapper/dist/bundle';
 import 'react14-fabric2-wrapper/dist/bundle';
+import * as Fabric7 from 'office-ui-fabric-react'
+import * as Fabric5 from 'fabric5';
 
-import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-global.React17 = React;
-global.React15 = React15;
 global.React12 = React12;
 
 global.Fabric5 = Fabric5;
+global.Fabric7 = Fabric7;
 
 ReactDOM.render(
   <React.StrictMode>

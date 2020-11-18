@@ -1,5 +1,5 @@
 {
-  "name": "react16-fabric7-wrapper",
+  "name": "react17-fabric7-wrapper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "office-ui-fabric-react": "7.150.0",
-    "react": "16.14.0",
-    "react-dom": "16.14.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
