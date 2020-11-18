@@ -9390,18 +9390,19 @@ react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-"react12@npm:react@0.12.2", react@0.12.2:
-  name react12
+"react12@npm:react@0.12.2":
   version "0.12.2"
   resolved "https://registry.yarnpkg.com/react/-/react-0.12.2.tgz#1c4f0b08818146eeab4f0ab39257e0aa52027e00"
   integrity sha1-HE8LCIGBRu6rTwqzklfgqlICfgA=
   dependencies:
     envify "^3.0.0"
 
-"react12_wrapper@file:../react12_wrapper":
+"react14-fabric2-wrapper@file:../react14-fabric2-wrapper":
   version "1.0.0"
   dependencies:
-    react "0.12.2"
+    office-ui-fabric-react "2.34.2"
+    react "0.14.10"
+    react-dom "^0.14.10"
 
 "react14@npm:react@0.14.7":
   version "0.14.7"
