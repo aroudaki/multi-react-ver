@@ -4,7 +4,7 @@ const debug = process.env.NODE_ENV !== "production";
 module.exports = function (webpackEnv) {
     return{
         context: __dirname,
-        entry: "./src/index.jsx",
+        entry: "./src/component.jsx",
         output: {
           path: __dirname + "/dist",
           filename: "bundle.js",

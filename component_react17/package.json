@@ -2,7 +2,7 @@
   "name": "component_r17",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/component_r17.bundle.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "build": "webpack",
     "build:full": "webpack --config ./full-bundle.webpack.config.js",

@@ -15,13 +15,10 @@ function App() {
     ])
     .then(() => {
       setCustomComponents([
-        {component: window.ComponentR17.Component_r17, reactVersion: window.ComponentR17.ReactVersion},
-        {component: window.ComponentR15.Component_r15, reactVersion: window.ComponentR15.ReactVersion},
-        {component: window.ComponentR14.Component_r14, reactVersion: window.ComponentR14.ReactVersion},
-        {component: window.ComponentR12.Component_r12, reactVersion: window.ComponentR12.ReactVersion},
-        {component: window.ComponentR12.Component_r12, reactVersion: window.ComponentR12.ReactVersion},
-        {component: window.ComponentR12.Component_r12, reactVersion: window.ComponentR12.ReactVersion},
-        {component: 'dummy not supported component', reactVersion: '0.10.0'},
+        {component: window.ComponentR17.renderComponent},
+        {component: window.ComponentR15.renderComponent},
+        {component: window.ComponentR14.renderComponent},
+        {component: window.ComponentR12.renderComponent},
       ])
     });
   }

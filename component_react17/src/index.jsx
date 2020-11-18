@@ -1,12 +1,7 @@
 import React from 'react';
-import {DefaultButton} from 'office-ui-fabric-react';
+import ReactDOM from 'react-dom';
+import {Component_r17 as Component} from './component.jsx'
 
-export function Component_r17() {
-    return (
-        <div style={{border: '1px solid fuchsia', padding: 10, color: 'white'}}>
-            <DefaultButton primary>This component uses react {React.version} - Fabric 7 </DefaultButton>
-        </div>
-    );
+export const renderComponent = (parentElement) => {
+  ReactDOM.render(<Component />,  parentElement);
 }
-
-export const ReactVersion = React.version;

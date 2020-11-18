@@ -3458,6 +3458,9 @@ component-emitter@^1.2.1:
 "component_r17@file:../component_react17":
   version "1.0.0"
 
+"component_r17@file:./../component_react17":
+  version "1.0.0"
+
 compose-function@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/compose-function/-/compose-function-3.0.3.tgz#9ed675f13cc54501d30950a486ff6a7ba3ab185f"
@@ -9330,13 +9333,14 @@ react-refresh@^0.8.3:
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
 "react12@npm:react@0.12.2", react@0.12.2:
+  name react12
   version "0.12.2"
   resolved "https://registry.yarnpkg.com/react/-/react-0.12.2.tgz#1c4f0b08818146eeab4f0ab39257e0aa52027e00"
   integrity sha1-HE8LCIGBRu6rTwqzklfgqlICfgA=
   dependencies:
     envify "^3.0.0"
 
-"react12_wrapper@file:./../react12_wrapper":
+"react12_wrapper@file:../react12_wrapper":
   version "1.0.0"
   dependencies:
     react "0.12.2"
