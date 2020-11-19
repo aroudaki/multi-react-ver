@@ -43,7 +43,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>This page is using react {React.version}</h2>
+        <h2>Not Optimized App</h2>
+        <h3>This page is using react {React.version}</h3>
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
         {customComponents && customComponents.map(comp => <ComponentWrapper {...comp} />)}
         {!customComponents && <div>Loading ...</div>}

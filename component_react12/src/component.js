@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Component_r12 = () => React.createElement("h3", {
+export const Component = () => React.createElement("h3", {
         style: {
           border: '1px solid cyan'
         }

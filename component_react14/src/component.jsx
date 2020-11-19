@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button} from 'office-ui-fabric-react';
 
-export class Component_r14 extends React.Component {
+export class Component extends React.Component {
     render(){
         return (
             <div style={{border: '1px solid yellow', padding: 10, color: 'white'}}>
