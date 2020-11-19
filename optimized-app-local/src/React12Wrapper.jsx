@@ -15,9 +15,9 @@ export class React12Wrapper extends Component {
         // TODO: Use proper react version to mount the component to wrapperRef element
         this.wrapperRef.current.innerText = "Fallback to Older React Renderer";
         
-        // import('../react12_wrapper/bundle').then(() => {
-        //     this.setState({wrapperRenderer: window.react12_wrapper.renderComponent})
-        // });
+        import('react12_wrapper/dist/bundle').then(() => {
+            this.setState({wrapperRenderer: window.react12_wrapper.renderComponent})
+        });
     }
 
     componentDidUpdate() {

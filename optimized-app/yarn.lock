@@ -1332,7 +1332,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@microsoft/load-themed-styles@^1.10.26", "@microsoft/load-themed-styles@^1.2.2", "@microsoft/load-themed-styles@^1.7.13":
+"@microsoft/load-themed-styles@^1.10.26", "@microsoft/load-themed-styles@^1.7.13":
   version "1.10.133"
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.133.tgz#15279a459985a883738c413133ebe98091957e64"
   integrity sha512-jiGxZDBXmjD0uQPtZ+C/UPEdGwp5C50x1fYLy84dpkooZ8nT0jeWlXS3JJjWpHAL9URY37OIrBWzHu/FcBWFGQ==
@@ -1978,11 +1978,6 @@
     "@uifabric/set-version" "^7.0.23"
     "@uifabric/utilities" "^7.33.2"
     tslib "^1.10.0"
-
-"@uifabric/utilities@>=1.10.2 <2.0.0":
-  version "1.10.4"
-  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-1.10.4.tgz#9378dd68944270d6ce1c1e70fda634e1728c3d58"
-  integrity sha512-mKfsbPebdrDkDbsJkDKuu522JVeaCkIuOsbAM1BOTK5o/DQfKtU24KZpkUvZALG1SOgEDds0UqeImhs7Gg6dAQ==
 
 "@uifabric/utilities@>=5.34.2 <6.0.0", "@uifabric/utilities@>=5.34.3 <6.0.0":
   version "5.34.3"
@@ -3439,18 +3434,6 @@ component-emitter@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
   integrity sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==
-
-"component_r12@file:../component_react12":
-  version "1.0.0"
-
-"component_r14@file:../component_react14":
-  version "1.0.0"
-
-"component_r15@file:../component_react15":
-  version "1.0.0"
-
-"component_r17@file:../component_react17":
-  version "1.0.0"
 
 compose-function@3.0.3:
   version "3.0.3"
@@ -7933,15 +7916,6 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-office-ui-fabric-react@2.34.2:
-  name fabric2
-  version "2.34.2"
-  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-2.34.2.tgz#fac3f598d4130f7fff3e9ade965bd6f8b3b043f3"
-  integrity sha1-+sP1mNQTD3//PprellvW+LOwQ/M=
-  dependencies:
-    "@microsoft/load-themed-styles" "^1.2.2"
-    "@uifabric/utilities" ">=1.10.2 <2.0.0"
-
 office-ui-fabric-react@^7.151.0:
   version "7.151.0"
   resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.151.0.tgz#d28c6a0a4326ef49a0c3b006aac26374cf2b7e13"
@@ -9349,11 +9323,6 @@ react-dev-utils@^11.0.0:
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.7.tgz#973c302110b3a680c9afe69d07c623b9c0952d82"
   integrity sha1-lzwwIRCzpoDJr+adB8YjucCVLYI=
 
-react-dom@^0.14.10:
-  version "0.14.10"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.10.tgz#da883daef7fa86838e9e2fcfcc084c590c350e21"
-  integrity sha512-kDs8SWFb8Sry4NAplhpJbZEeAnTPir/m+s9s+lkdqA2a89BzmWGnEgGG/CfmhULjv1ogc4oHrjMfAvFNruT3jQ==
-
 react-dom@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
@@ -9383,24 +9352,12 @@ react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-"react12@npm:react@0.12.2", react@0.12.2:
+"react12@npm:react@0.12.2":
   version "0.12.2"
   resolved "https://registry.yarnpkg.com/react/-/react-0.12.2.tgz#1c4f0b08818146eeab4f0ab39257e0aa52027e00"
   integrity sha1-HE8LCIGBRu6rTwqzklfgqlICfgA=
   dependencies:
     envify "^3.0.0"
-
-"react12_wrapper@file:./../react12_wrapper":
-  version "1.0.0"
-  dependencies:
-    react "0.12.2"
-
-"react14-fabric2-wrapper@file:../react14-fabric2-wrapper":
-  version "1.0.0"
-  dependencies:
-    office-ui-fabric-react "2.34.2"
-    react "0.14.10"
-    react-dom "^0.14.10"
 
 "react14@npm:react@0.14.7":
   version "0.14.7"
@@ -9420,14 +9377,6 @@ react-refresh@^0.8.3:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.10"
-
-react@0.14.10:
-  version "0.14.10"
-  resolved "https://registry.yarnpkg.com/react/-/react-0.14.10.tgz#c10d7750f1c5b34eee2a123915ac4c14c01c1081"
-  integrity sha512-yxMw5aorZG4qsLVBfjae4wGFvd5708DhcxaXLJ3IOTgr1TCs8k9+ZheGgLGr5OfwWMhSahNbGvvoEDzrxVWouA==
-  dependencies:
-    envify "^3.0.0"
-    fbjs "^0.6.1"
 
 react@^17.0.1:
   version "17.0.1"
