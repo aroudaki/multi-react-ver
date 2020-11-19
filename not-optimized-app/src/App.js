@@ -7,20 +7,36 @@ function App() {
   const [customComponents, setCustomComponents] = useState();
 
   if (!customComponents){
-    Promise.all([
-      import('component_r17/dist/full-bundle'),
-      import('component_r15/dist/full-bundle'),
-      import('component_r14/dist/full-bundle'),
-      import('component_r12/dist/full-bundle')
-    ])
+    //   Promise.all([
+    //     import('component_r17/dist/full-bundle'),
+    //     import('component_r15/dist/full-bundle'),
+    //     import('component_r14/dist/full-bundle'),
+    //     import('component_r12/dist/full-bundle')
+    //   ])
+    //   .then(() => {
+    //     setCustomComponents([
+    //       {component: window.ComponentR17.renderComponent},
+    //       {component: window.ComponentR15.renderComponent},
+    //       {component: window.ComponentR14.renderComponent},
+    //       {component: window.ComponentR12.renderComponent},
+    //     ])
+    //   });
+
+    const importPromises = [];
+    for (let c = 1; c < 21; c++) {
+      const importPromise = import(`./../component-bundles-not-optimized/c${c}`);
+      importPromises.push(importPromise);
+    }
+
+    Promise.all(importPromises)
     .then(() => {
-      setCustomComponents([
-        {component: window.ComponentR17.renderComponent},
-        {component: window.ComponentR15.renderComponent},
-        {component: window.ComponentR14.renderComponent},
-        {component: window.ComponentR12.renderComponent},
-      ])
+      const components = [];
+      for (let c = 1; c < 21; c++) {
+        components.push({component: window[`CustomComponent_${c}`].renderComponent});
+      }
+      setCustomComponents(components);
     });
+
   }
 
 

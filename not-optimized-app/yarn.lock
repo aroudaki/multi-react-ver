@@ -3458,9 +3458,6 @@ component-emitter@^1.2.1:
 "component_r17@file:../component_react17":
   version "1.0.0"
 
-"component_r17@file:./../component_react17":
-  version "1.0.0"
-
 compose-function@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/compose-function/-/compose-function-3.0.3.tgz#9ed675f13cc54501d30950a486ff6a7ba3ab185f"
